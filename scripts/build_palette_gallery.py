@@ -17,7 +17,7 @@ KIND = dict(qualitative="分类", sequential="顺序", diverging="发散", cycli
 CVD = dict(reported="色觉友好设计有来源", conditional="色觉适用有条件", not_assessed="色觉表现未评估", not_recommended="慎用于色觉友好任务")
 FAMILY = dict(ggsci="ggsci", brewer="Brewer", viridis="viridis", matplotlib="MPL",
               cud="CUD", tol="Tol", scico="SCM", cmocean="cmocean",
-              cetcolor="CET", colorspace="HCL", china="东方原色", dongfang="东方衍生")
+              cetcolor="CET", colorspace="HCL", china="东方原色", dongfang="东方衍生", wechat="用户收藏 · 微信配色")
 
 
 def text_colour(colour):
@@ -91,7 +91,7 @@ def main():
     extensions = len(palettes) - len(core)
     counts = Counter(p["family"] for p in palettes)
     # Explicit priority does not reorder a palette's internal colours.
-    family_order = ["china", "cud", "tol", "cetcolor", "brewer", "viridis", "colorspace", "scico", "cmocean", "ggsci", "matplotlib", "dongfang"]
+    family_order = ["wechat", "china", "cud", "tol", "cetcolor", "brewer", "viridis", "colorspace", "scico", "cmocean", "ggsci", "matplotlib", "dongfang"]
     order = {f:i for i,f in enumerate(family_order)}
     palettes = sorted(palettes, key=lambda p: ("extension" in p.get("tags", []), order.get(p["family"], 99)))
     options = ''.join(f'<option value="{html.escape(f)}">{html.escape(FAMILY.get(f,f))} ({counts[f]})</option>' for f in family_order if f in counts)

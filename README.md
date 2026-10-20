@@ -8,7 +8,23 @@
   <img alt="R and Python" src="https://img.shields.io/badge/R%20%2B%20Python-supported-568FC3?style=for-the-badge">
 </p>
 
-# EasyPlot
+# EasyPlot Palette Lab
+
+基于 [Rimagination/easyplot](https://github.com/Rimagination/easyplot) 的个人扩展版本，保留上游历史和原作者署名。技能调用名仍为 `$easyplot`。
+
+本分支 `palette-updates` 新增 **17 套用户收藏色板**：涂客 9 套同色系、PubCNS Nature 第18期 4 套，以及 PubCNS 第122期 4 套。原有色板值和默认配色保持不变。
+
+| 收藏 | 调用 ID | 数量 |
+| --- | --- | --- |
+| 涂客同色系 | `wechat.tuke.blue`、`green`、`brown`、`orange`、`red`、`purple`、`pink`、`yellow`、`white`（后续短名均加 `wechat.tuke.` 前缀） | 每套 5 色 |
+| PubCNS Nature 第18期 | `wechat.pubcns.nature18.fig1` 至 `fig4` | 7 / 8 / 7 / 8 色 |
+| PubCNS 第122期 | `wechat.pubcns.neuron122.fig1` 至 `fig4` | 9 / 10 / 9 / 8 色 |
+
+色板保存原始 HEX 和顺序，均作为离散色板调用；不自动插值，不默认认定色盲友好。第122期文章正文题名与图版内容不对应，记录按配色卡归属整理，未认定为特定论文或期刊的官方配色。完整出处见 [新增色板说明](references/wechat-palettes.md)。
+
+**许可范围**：原创程序和文档沿用上游 MIT；第三方色表、源码及材料分别保留其原有许可。根目录 MIT 不将全部资产重新许可为 MIT，也不授予微信文章或图版的权利。公开使用前请阅读 [第三方材料说明](THIRD_PARTY_NOTICES.md)。仓库不加入本次参考的微信完整图版、PDF 或用户科研数据。
+
+## 上游功能说明
 
 EasyPlot 是面向科研数据分析与作图的 AI Agent Skill。它把数据准备、统计分析、图形设计、组合排版和出版前检查放在一个入口中；默认使用 R/ggplot2，用户明确要求 Python 时使用 Python 科学绘图库，并保留现有项目的分析约定。
 
@@ -22,7 +38,7 @@ EasyPlot 是面向科研数据分析与作图的 AI Agent Skill。它把数据�
 
 ## 色带目录
 
-离线目录收录 **335 个核心色带记录**，另有 **1,202 个 ggsci iTerm 扩展方案**。目录可以按类别、数据类型和色觉证据筛选，并复制唯一 ID 或代码调用。色盲友好候选会根据离散/连续/发散数据类型和类别数量选择；灰度与色觉模拟用于发现风险，不会自动给散点加形状或给曲线加线型。
+离线目录收录 **352 个核心色带记录**，另有 **1,202 个 ggsci iTerm 扩展方案**。目录可以按类别、数据类型和色觉证据筛选，并复制唯一 ID 或代码调用。色盲友好候选会根据离散/连续/发散数据类型和类别数量选择；灰度与色觉模拟用于发现风险，不会自动给散点加形状或给曲线加线型。
 
 `china.*` 是 EasyPlot 按方案组合的 2kil 东方色原色，保留来源色名；`dongfang.*` 是早期经典色带衍生候选。两者来源不同，目录中分别标注。
 

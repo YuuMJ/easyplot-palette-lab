@@ -15,3 +15,9 @@ These files retain source notices. They do not impose one common licence on unre
 - **2kil / 东方色**: Frank Lin, site footer copyright 2020, https://www.2kil.com/. EasyPlot treats the traditional colour names and HEX values as public-domain factual data and retains source attribution. This repository uses name/value records and EasyPlot-curated combinations, not the site's layout or artwork. The root MIT licence does not relicense the source website or its presentation. Scheme names/combinations are EasyPlot curation and do not imply source-site or historical endorsement.
 
 No website interfaces, research figures or package installation hooks are part of the palette runtime. Public sharing of the mixed catalogue needs a source-specific licence review.
+
+## User-supplied WeChat palettes
+
+The 17 `wechat.*` tables transcribe printed colour specifications from 涂客艺术美学馆 and PubCNS, requested by the local user. Exact source links, access date and image hashes are in assets/user-wechat-palettes.json. No general redistribution licence was identified; the existing MIT licence does not extend to the source articles or artwork. Full article artwork is not bundled.
+
+PubCNS issue 122 (2026-10-20): four further exact-HEX card transcriptions, RGB cross-checked; cover duplicate excluded. Source heading/body/figure provenance mismatch is explicitly recorded. No figure artwork or data imported. User collection total: 17.

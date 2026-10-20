@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "version": "1.2.0",
-  "built_utc": "2026-09-23T04:28:54.190988+00:00",
+  "version": "1.2.2-local",
+  "built_utc": "2026-10-20T01:25:08.862273+00:00",
   "palettes": [
     {
       "id": "ggsci.npg.nrc",
@@ -138002,6 +138002,669 @@
         "not-a-reversal"
       ],
       "label_full": "cmocean / tarn_i"
+    },
+    {
+      "id": "wechat.tuke.blue",
+      "label": "涂客 · 蓝色系",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#D9E6EF",
+        "#C5C1D9",
+        "#8BD0DD",
+        "#66A6C3",
+        "#415883"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "tonal",
+        "tuke",
+        "同色系"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "涂客艺术美学馆",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Source calls these gradient inspirations. Stored as five discrete, source-ordered tonal swatches; not a perceptually uniform continuous scale. Orange and white are not strictly lightness-ordered. Do not silently interpolate, reorder or claim category separability.",
+      "source_card": "a02",
+      "source_image_sha256": "349abb19e62f3866b2b6788a3d4a827e63faf8b9c5cf5e1e869a0eda458a8c3d",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/mmbiz_jpg/W67DjfL16MOKr4P4WUuBDxT9zyYDskAmk8Csdia0mLA8EhPLtus22mxxicxaaKQB0PSjyIzDubq7ZmhyMe6D2qVZcrU7C2NDS4iaDia44OjlFS0/0"
+    },
+    {
+      "id": "wechat.tuke.green",
+      "label": "涂客 · 绿色系",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#A7E8E2",
+        "#84BEC8",
+        "#659CB2",
+        "#478074",
+        "#185F59"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "tonal",
+        "tuke",
+        "同色系"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "涂客艺术美学馆",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Source calls these gradient inspirations. Stored as five discrete, source-ordered tonal swatches; not a perceptually uniform continuous scale. Orange and white are not strictly lightness-ordered. Do not silently interpolate, reorder or claim category separability.",
+      "source_card": "a03",
+      "source_image_sha256": "bec8ac6d54ab27dbf52179c308559aaed8be1a04b47d49611b8b9cebda21b6fb",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/mmbiz_jpg/W67DjfL16MNbNg2eJy4mDAZchBqZvLfLIHBN0TBEo6JNenChem7nibD9tLniag7iaBexuvUOIicqjllxHHNjpw1iadEG2qyWFsIyFZCiaxic04WAmE/0"
+    },
+    {
+      "id": "wechat.tuke.brown",
+      "label": "涂客 · 棕色系",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#F5E0BA",
+        "#F5CD8D",
+        "#E19863",
+        "#955A4C",
+        "#783124"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "tonal",
+        "tuke",
+        "同色系"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "涂客艺术美学馆",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Source calls these gradient inspirations. Stored as five discrete, source-ordered tonal swatches; not a perceptually uniform continuous scale. Orange and white are not strictly lightness-ordered. Do not silently interpolate, reorder or claim category separability.",
+      "source_card": "a04",
+      "source_image_sha256": "40e4623247914ce9dbe4215df9a9abbeb5b5f291de1379b6736eab454e3c12bd",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/W67DjfL16MO0fdg9dBrnS1zwjbQxeKflQNDLlfibfyscTiawsKsxDZlHy5o63qEa4oQ0icoNIJ0ibTfamjxaMECrcwL6FZnicDXkuo0ibdw7J8WwA/0"
+    },
+    {
+      "id": "wechat.tuke.orange",
+      "label": "涂客 · 橙色系",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#FBB858",
+        "#F9B435",
+        "#FAC10C",
+        "#FE8817",
+        "#EE6514"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "tonal",
+        "tuke",
+        "同色系"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "涂客艺术美学馆",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Source calls these gradient inspirations. Stored as five discrete, source-ordered tonal swatches; not a perceptually uniform continuous scale. Orange and white are not strictly lightness-ordered. Do not silently interpolate, reorder or claim category separability.",
+      "source_card": "a05",
+      "source_image_sha256": "7a4832daeb44c59022d26f0a7b9f790e071c03268f29f060c260ccc492db117e",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/W67DjfL16MMaNFdHjibeZcick5bkuia0StPCpG9yudpwdsTlKN9DPfOu9gg5Q1mAWUNo2P5Sp1IXiaNrdSfsvY563oAtSneKwaia90Z5EfTsn7yg/0"
+    },
+    {
+      "id": "wechat.tuke.red",
+      "label": "涂客 · 红色系",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#F4D3D7",
+        "#E8ACB3",
+        "#EF9C84",
+        "#DC566F",
+        "#851321"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "tonal",
+        "tuke",
+        "同色系"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "涂客艺术美学馆",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Source calls these gradient inspirations. Stored as five discrete, source-ordered tonal swatches; not a perceptually uniform continuous scale. Orange and white are not strictly lightness-ordered. Do not silently interpolate, reorder or claim category separability.",
+      "source_card": "a06",
+      "source_image_sha256": "5d02dd9a9f910cd0ca378d7ab1913c2a4ec2d5e6769143bfede996c285292a65",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/mmbiz_jpg/W67DjfL16MPWUZX39L37aEwhobfYibqYLN1xsyKPoo8d8RmsrX5pbYoFiaVEmdpdxicZdkkkzojeic6gQdnRuAoZx6WlspBgbEJ6rryGEjIMiaRI/0"
+    },
+    {
+      "id": "wechat.tuke.purple",
+      "label": "涂客 · 紫色系",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#FEF0F0",
+        "#E8D2DA",
+        "#CCA9BE",
+        "#CB7EB3",
+        "#A25C8F"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "tonal",
+        "tuke",
+        "同色系"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "涂客艺术美学馆",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Source calls these gradient inspirations. Stored as five discrete, source-ordered tonal swatches; not a perceptually uniform continuous scale. Orange and white are not strictly lightness-ordered. Do not silently interpolate, reorder or claim category separability.",
+      "source_card": "a07",
+      "source_image_sha256": "da47e9983c2b3bc7392929db84f6bba178fb620d19b75e7aa7c20cc7c70408f1",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/W67DjfL16MMXFUiaC0E7xBucYDBBdHTx9kNqlUsYicO79J3aJ3Ey10skPqNAtacKibIJGH3IjBBfWyBRLfsfkgPmhVgUicSKicSQcOXohIJpXyeM/0"
+    },
+    {
+      "id": "wechat.tuke.pink",
+      "label": "涂客 · 粉色系",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#FBF1F5",
+        "#F9E7E6",
+        "#F6CCD4",
+        "#F2AEBC",
+        "#EC88A3"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "tonal",
+        "tuke",
+        "同色系"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "涂客艺术美学馆",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Source calls these gradient inspirations. Stored as five discrete, source-ordered tonal swatches; not a perceptually uniform continuous scale. Orange and white are not strictly lightness-ordered. Do not silently interpolate, reorder or claim category separability.",
+      "source_card": "a08",
+      "source_image_sha256": "fe8b78daefe17a07c0b12f61883fbb3a62d36ceeaea726190ca17877c137ab43",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/mmbiz_jpg/W67DjfL16MPDpngUHCgic15y9FHmXevV44oL0xcibYf5JQkiaEHg7txibj59HfPibJZSicLFtQtDmhIZIBs2dqXsa6fUv538ucObUASj3xq1aRbwQ/0"
+    },
+    {
+      "id": "wechat.tuke.yellow",
+      "label": "涂客 · 黄色系",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#FEFAE7",
+        "#F8F2C2",
+        "#F9E99F",
+        "#F7DD72",
+        "#F7D35D"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "tonal",
+        "tuke",
+        "同色系"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "涂客艺术美学馆",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Source calls these gradient inspirations. Stored as five discrete, source-ordered tonal swatches; not a perceptually uniform continuous scale. Orange and white are not strictly lightness-ordered. Do not silently interpolate, reorder or claim category separability.",
+      "source_card": "a09",
+      "source_image_sha256": "3846301da446860cef20c5c80015be6e761fd1a56cf939b0046eccc8156a5fe7",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/sz_mmbiz_jpg/W67DjfL16MOXpuvqntYbibUQeRyJoBc7Fwe6A41AT1jMicBqCoib1lHURmicqTbRcS1ia2bibNP2xDibAd5qdStxrvA4mnfPNLjlIzcXrGfdy6MK0Q/0"
+    },
+    {
+      "id": "wechat.tuke.white",
+      "label": "涂客 · 白色系",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#FFFFFF",
+        "#E2ECF4",
+        "#B5C7D6",
+        "#D2E6ED",
+        "#F0F5FD"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "tonal",
+        "tuke",
+        "同色系"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "涂客艺术美学馆",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Source calls these gradient inspirations. Stored as five discrete, source-ordered tonal swatches; not a perceptually uniform continuous scale. Orange and white are not strictly lightness-ordered. Do not silently interpolate, reorder or claim category separability.",
+      "source_card": "a10",
+      "source_image_sha256": "55cb8990f246321dbd1e0a79406a29ee70954a25d813bf083ccbd77b1e379e7e",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/mmbiz_jpg/W67DjfL16MM7EkeiavbBUaAa1mibL2Mjnmpy4952XC9NwrITbTRyCvtmMl95ZwRtvksf4I48kBScqH83VQgRt2aVxVSJvlo2naYTFOFPUKt3M/0"
+    },
+    {
+      "id": "wechat.pubcns.nature18.fig1",
+      "label": "PubCNS · Nature 18 · 图1",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#1C2588",
+        "#22B14C",
+        "#DE4E43",
+        "#85B1E8",
+        "#EA9EAD",
+        "#9E9E9E",
+        "#E6E6E6"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "paper-inspired",
+        "pubcns",
+        "Nature 18"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/3kdVaFgGGLvQikHTRa8QaA",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/3kdVaFgGGLvQikHTRa8QaA",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "PubCNS; article cites doi:10.1038/s41586-026-10459-x",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Exact HEX transcription of the PubCNS palette card, not pixel-sampled from the paper figure. Neutral/light swatches are included in source order and may be better suited to controls/backgrounds. This is not an official Nature palette or endorsement.",
+      "source_card": "b01",
+      "source_image_sha256": "ead10b97388c559d1d8dd046d97d1b37d3560b88d6013bf1f14155901e33fe29",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/mmbiz_png/eveazAhBEsg8OYGgM8jpte31ictLSbOLd7zS34lyFSAtZ1OGYUwOfzBNVz6pJn93veZHibeIBtiavHPJ7JOloFiahcW1hHbibYDvOAia0FjI3oJw4/0"
+    },
+    {
+      "id": "wechat.pubcns.nature18.fig2",
+      "label": "PubCNS · Nature 18 · 图2",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#98002E",
+        "#8CABD6",
+        "#9BA86C",
+        "#A5E083",
+        "#F59280",
+        "#BFBFBF",
+        "#ECE8F4",
+        "#F9F4E5"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "paper-inspired",
+        "pubcns",
+        "Nature 18"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/3kdVaFgGGLvQikHTRa8QaA",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/3kdVaFgGGLvQikHTRa8QaA",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "PubCNS; article cites doi:10.1038/s41586-026-10459-x",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Exact HEX transcription of the PubCNS palette card, not pixel-sampled from the paper figure. Neutral/light swatches are included in source order and may be better suited to controls/backgrounds. This is not an official Nature palette or endorsement.",
+      "source_card": "b02",
+      "source_image_sha256": "d0895e71fbf62323e97e1792120e78d02c87cc86028f31d61dbe365e62108ce7",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/eveazAhBEsgx2kIb4RWsLAlTkKTQjaT6sBDbSVGLyics8U2vOIEmR5mbrMsPwWgpjPt0YrfmnfVg6meWnXdxGu2Y9ImP71SnTWibHKObnYhoM/0"
+    },
+    {
+      "id": "wechat.pubcns.nature18.fig3",
+      "label": "PubCNS · Nature 18 · 图3",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#A6C2E0",
+        "#D8E2EF",
+        "#F6E1C2",
+        "#B0C899",
+        "#BDB4D6",
+        "#E0B2BF",
+        "#828B9C"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "paper-inspired",
+        "pubcns",
+        "Nature 18"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/3kdVaFgGGLvQikHTRa8QaA",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/3kdVaFgGGLvQikHTRa8QaA",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "PubCNS; article cites doi:10.1038/s41586-026-10459-x",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Exact HEX transcription of the PubCNS palette card, not pixel-sampled from the paper figure. Neutral/light swatches are included in source order and may be better suited to controls/backgrounds. This is not an official Nature palette or endorsement.",
+      "source_card": "b03",
+      "source_image_sha256": "c84c43a032de02dfd22fe9d6e44a1c76e4a76924cfa953329c63cf7d3bc9ce57",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/eveazAhBEsjyNJI3gbPxoJuJv1XjrtfbDQusFvcBEpEHRSkiaFz0On8l0xTIoVhUjd4cjvaJ0ozEYldZUHMwLo45vLx3DcXVBWJ6L11HZjTs/0"
+    },
+    {
+      "id": "wechat.pubcns.nature18.fig4",
+      "label": "PubCNS · Nature 18 · 图4",
+      "family": "wechat",
+      "kind": "qualitative",
+      "colours": [
+        "#6AA861",
+        "#A7BB89",
+        "#E6826C",
+        "#F0CD9B",
+        "#F5A087",
+        "#A4D3C8",
+        "#7475BD",
+        "#AE002E"
+      ],
+      "selection": "prefix",
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "paper-inspired",
+        "pubcns",
+        "Nature 18"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s/3kdVaFgGGLvQikHTRa8QaA",
+        "note": "No source-backed CVD validation. Inspect the actual geometry; pale swatches may have low white-background contrast."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s/3kdVaFgGGLvQikHTRa8QaA",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "PubCNS; article cites doi:10.1038/s41586-026-10459-x",
+        "license": "No explicit palette-data redistribution license identified; source attribution retained; local user collection."
+      },
+      "notes": "Exact HEX transcription of the PubCNS palette card, not pixel-sampled from the paper figure. Neutral/light swatches are included in source order and may be better suited to controls/backgrounds. This is not an official Nature palette or endorsement.",
+      "source_card": "b04",
+      "source_image_sha256": "878c80e27672905df8476e42f1eeb5036488c0993cc95fad23d1c269423f369b",
+      "extraction": "Manual transcription of printed HEX labels; PubCNS printed RGB values cross-checked against HEX.",
+      "source_image_url": "https://mmbiz.qpic.cn/mmbiz_png/eveazAhBEsiawGlESqDibiazzIVDQVWicdYSyPIZWEPXH2EazlWtjHENoIcveiaSAvqlFmUspDcL1Zc14F5VWJazA4ly9YPfUG1II3lZxz7Uc71g/0"
+    },
+    {
+      "id": "wechat.pubcns.neuron122.fig1",
+      "label": "PubCNS · 第122期 · 图1",
+      "family": "wechat",
+      "kind": "qualitative",
+      "selection": "prefix",
+      "colours": [
+        "#332D2A",
+        "#E4202D",
+        "#6BC3F5",
+        "#3CB44B",
+        "#F543B4",
+        "#FFB6D9",
+        "#FBD136",
+        "#007ACC",
+        "#C8C8C8"
+      ],
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "paper-inspired",
+        "pubcns",
+        "Neuron 122",
+        "第122期",
+        "discrete"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247487936&idx=1&sn=76fd4ba3bc0a0c7d8e08e7c6e173cad1",
+        "note": "No CVD validation supplied. Saturated red/green and magenta combinations require task-specific checks; neutrals may be controls/backgrounds."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247487936&idx=1&sn=76fd4ba3bc0a0c7d8e08e7c6e173cad1",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "PubCNS, 跟着顶刊学配色 122 | Neuron",
+        "license": "No explicit palette-data redistribution licence identified; local user collection."
+      },
+      "notes": "Exact printed HEX, source order preserved; RGB labels cross-checked. The heading says Neuron, while the body names an HDAC/macrophage paper and the images show PVN/DVC neurophysiology; attribution to a specific paper/journal is unverified. This is a curator card, not an official publisher palette. Use saturated sets selectively and retain neutral roles.",
+      "source_card": "c01",
+      "source_image_url": "https://mmbiz.qpic.cn/mmbiz_png/eveazAhBEsjVr8Aquiaxy2TSo2YnELNpN08p208BL5HoplZ1NxLYW2yf5f0r8NeiaTUcK6eK9vAJAZ3SS7mHpNZ6Ch3CicFT095Xxa4MCXe6Xg/0",
+      "source_image_sha256": "516a05ae9beb8bfa2e70b5436f6edfda1c82a1fede2867b8d43d2a76e7fde8c4",
+      "extraction": "Manual transcription of printed HEX; all printed RGB values cross-checked. Cover c00 repeats c01."
+    },
+    {
+      "id": "wechat.pubcns.neuron122.fig2",
+      "label": "PubCNS · 第122期 · 图2",
+      "family": "wechat",
+      "kind": "qualitative",
+      "selection": "prefix",
+      "colours": [
+        "#FF4D4D",
+        "#5ACAFF",
+        "#FFAA33",
+        "#FF66FF",
+        "#90D25D",
+        "#E0B6B6",
+        "#52393C",
+        "#808080",
+        "#0099FF",
+        "#FFEB99"
+      ],
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "paper-inspired",
+        "pubcns",
+        "Neuron 122",
+        "第122期",
+        "discrete"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247487936&idx=1&sn=76fd4ba3bc0a0c7d8e08e7c6e173cad1",
+        "note": "No CVD validation supplied. Saturated red/green and magenta combinations require task-specific checks; neutrals may be controls/backgrounds."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247487936&idx=1&sn=76fd4ba3bc0a0c7d8e08e7c6e173cad1",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "PubCNS, 跟着顶刊学配色 122 | Neuron",
+        "license": "No explicit palette-data redistribution licence identified; local user collection."
+      },
+      "notes": "Exact printed HEX, source order preserved; RGB labels cross-checked. The heading says Neuron, while the body names an HDAC/macrophage paper and the images show PVN/DVC neurophysiology; attribution to a specific paper/journal is unverified. This is a curator card, not an official publisher palette. Use saturated sets selectively and retain neutral roles.",
+      "source_card": "c02",
+      "source_image_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/eveazAhBEshPza1F2pQkGcCMteJkKtZGef5bPZ0OibL7Xx5DUFzrvbBVKfeeibPp1icbtyERBicQqtcdpwOukibnIazysAhKLLqfUOet92Ft9Ojo/0",
+      "source_image_sha256": "6d66136c8877d6a36547ac60929d231af10ec8284f3a8e9b7e674671a38dd986",
+      "extraction": "Manual transcription of printed HEX; all printed RGB values cross-checked. Cover c00 repeats c01."
+    },
+    {
+      "id": "wechat.pubcns.neuron122.fig3",
+      "label": "PubCNS · 第122期 · 图3",
+      "family": "wechat",
+      "kind": "qualitative",
+      "selection": "prefix",
+      "colours": [
+        "#333333",
+        "#E61B1B",
+        "#78C4FF",
+        "#FF00FF",
+        "#00B050",
+        "#9300AF",
+        "#FFC878",
+        "#D9D9D9",
+        "#969696"
+      ],
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "paper-inspired",
+        "pubcns",
+        "Neuron 122",
+        "第122期",
+        "discrete"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247487936&idx=1&sn=76fd4ba3bc0a0c7d8e08e7c6e173cad1",
+        "note": "No CVD validation supplied. Saturated red/green and magenta combinations require task-specific checks; neutrals may be controls/backgrounds."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247487936&idx=1&sn=76fd4ba3bc0a0c7d8e08e7c6e173cad1",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "PubCNS, 跟着顶刊学配色 122 | Neuron",
+        "license": "No explicit palette-data redistribution licence identified; local user collection."
+      },
+      "notes": "Exact printed HEX, source order preserved; RGB labels cross-checked. The heading says Neuron, while the body names an HDAC/macrophage paper and the images show PVN/DVC neurophysiology; attribution to a specific paper/journal is unverified. This is a curator card, not an official publisher palette. Use saturated sets selectively and retain neutral roles.",
+      "source_card": "c03",
+      "source_image_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/eveazAhBEsgLeUOscfZVZ1RgibZo2ReVvhYZ6Fq2QItiaibdjFHdu3UxyjRGickpTYZHxrxxhZo5p3UNuah28uShk6dPeTmxwLAD79jmn4HkfCM/0",
+      "source_image_sha256": "e8c7b51aec203a41e6e0ebed1fa5ac50d9f3336299b45208ec29991b6e4d0a8e",
+      "extraction": "Manual transcription of printed HEX; all printed RGB values cross-checked. Cover c00 repeats c01."
+    },
+    {
+      "id": "wechat.pubcns.neuron122.fig4",
+      "label": "PubCNS · 第122期 · 图4",
+      "family": "wechat",
+      "kind": "qualitative",
+      "selection": "prefix",
+      "colours": [
+        "#003AFF",
+        "#FF00FF",
+        "#00FF55",
+        "#FF0000",
+        "#000000",
+        "#A0A0A0",
+        "#FFDCDC",
+        "#FFCC00"
+      ],
+      "tags": [
+        "user-supplied",
+        "source-hex",
+        "paper-inspired",
+        "pubcns",
+        "Neuron 122",
+        "第122期",
+        "discrete"
+      ],
+      "cvd": {
+        "status": "not_assessed",
+        "evidence": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247487936&idx=1&sn=76fd4ba3bc0a0c7d8e08e7c6e173cad1",
+        "note": "No CVD validation supplied. Saturated red/green and magenta combinations require task-specific checks; neutrals may be controls/backgrounds."
+      },
+      "source": {
+        "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247487936&idx=1&sn=76fd4ba3bc0a0c7d8e08e7c6e173cad1",
+        "version": "User-supplied WeChat card, accessed 2026-10-20",
+        "attribution": "PubCNS, 跟着顶刊学配色 122 | Neuron",
+        "license": "No explicit palette-data redistribution licence identified; local user collection."
+      },
+      "notes": "Exact printed HEX, source order preserved; RGB labels cross-checked. The heading says Neuron, while the body names an HDAC/macrophage paper and the images show PVN/DVC neurophysiology; attribution to a specific paper/journal is unverified. This is a curator card, not an official publisher palette. Use saturated sets selectively and retain neutral roles.",
+      "source_card": "c04",
+      "source_image_url": "https://mmbiz.qpic.cn/sz_mmbiz_png/eveazAhBEsg0PT2AD2eCMvNutCDNEPgWKJx3vEkEdmnyibKQHGAm717tg2kLPUyF0ricjwSnG5uvICyWuWcKuhs0r5tSpiadfKtSGQicWmNVnYY/0",
+      "source_image_sha256": "738d6944f05355eb25704d3a5879b4b557b0bfa370a70c7b70249b28ecaa0eff",
+      "extraction": "Manual transcription of printed HEX; all printed RGB values cross-checked. Cover c00 repeats c01."
     }
   ],
   "sources": [
@@ -139066,6 +139729,24 @@
       "palette_files": {},
       "accessed": "2026-09-23",
       "note": "No colours are sourced from the R package. It links Scientific colour maps 8.0 (8035877); this batch uses the author's 8.0.1 archive (8409685), MIT. The namespace scico denotes the Scientific colour maps family and does not promise equivalence to scico(n), which performs Lab spline interpolation."
+    },
+    {
+      "name": "涂客艺术美学馆 · 九组同色系",
+      "url": "https://mp.weixin.qq.com/s/pmdMiCk8wdMJy1OUes2iGg",
+      "version": "accessed 2026-10-20",
+      "license": "Source terms unspecified; local user collection"
+    },
+    {
+      "name": "PubCNS · 跟着顶刊学配色 18",
+      "url": "https://mp.weixin.qq.com/s/3kdVaFgGGLvQikHTRa8QaA",
+      "version": "accessed 2026-10-20",
+      "license": "Source terms unspecified; local user collection"
+    },
+    {
+      "name": "PubCNS · 跟着顶刊学配色 122 | Neuron",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247487936&idx=1&sn=76fd4ba3bc0a0c7d8e08e7c6e173cad1",
+      "version": "accessed 2026-10-20",
+      "license": "Source terms unspecified; local user collection"
     }
   ],
   "omissions": [
@@ -139073,7 +139754,7 @@
     "No claim to include every palette from every scientific package. See source/version and family counts for the actual snapshot."
   ],
   "coverage": {
-    "total": 1537,
+    "total": 1554,
     "families": {
       "ggsci": 1288,
       "brewer": 35,
@@ -139086,10 +139767,12 @@
       "tol": 8,
       "cud": 1,
       "scico": 102,
-      "cmocean": 44
+      "cmocean": 44,
+      "wechat": 17
     },
     "ggsci_fixed_core": 86,
     "ggsci_iterm_extensions": 1202,
-    "china_original_schemes": 16
+    "china_original_schemes": 16,
+    "user_wechat_schemes": 17
   }
 }

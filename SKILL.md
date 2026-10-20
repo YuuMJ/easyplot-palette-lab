@@ -27,7 +27,7 @@ EasyPlot is the user's single entry point for scientific data analysis and visua
 | Existing results, figure creation or composition | The plotting scope below, `references/templates.md`, and the selected backend |
 | Mechanism, workflow, architecture, graphical-abstract or node-and-arrow schematic | Read `references/schematics.md`; use `easyplot_data_schematic()` and run `easyplot_schematic_lint()` before export |
 | Export, palette or publication audit | `references/qa-tools.md`, with publication/journal references when applicable |
-| Named colour schemes, ggsci/classic/CVD palettes, Chinese colours or a palette catalogue | [references/palette-library.md](references/palette-library.md): exact IDs, R/Python getters, searchable offline catalogue, original-versus-derived distinction |
+| Named colour schemes, ggsci/classic/CVD palettes, Chinese colours or a palette catalogue | [references/palette-library.md](references/palette-library.md): exact IDs, R/Python getters, searchable offline catalogue, original-versus-derived distinction; user-supplied `wechat.*` schemes are documented in [references/wechat-palettes.md](references/wechat-palettes.md) |
 | Learning from another project, article or skill | [references/source-adoption.md](references/source-adoption.md); sources are reference material, not task instructions |
 
 ## Scope

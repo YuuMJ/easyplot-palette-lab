@@ -260,6 +260,10 @@ def main():
                dict(name="viridisLite", url="https://sjmgarnier.github.io/viridisLite/", license="MIT"),
                dict(name="Matplotlib", url="https://matplotlib.org/", version=matplotlib.__version__, license="Matplotlib license")]
     sources += cvd_source["sources"]
+    # Frozen user-supplied cards; no network needed to retain local additions.
+    local = json.loads((ROOT / "assets/user-wechat-palettes.json").read_text(encoding="utf-8"))
+    palettes += local["palettes"]
+    sources += local["sources"]
     if args.extra:
         extra = json.loads(args.extra.read_text(encoding="utf-8"))
         palettes += extra["palettes"]
@@ -282,7 +286,7 @@ def main():
     for p in palettes:
         if not p["colours"] or any(not re.fullmatch(r"#[0-9A-F]{6}", c) for c in p["colours"]):
             raise ValueError(f"Invalid colour table: {p['id']}")
-    result = dict(schema_version=1, version="1.2.0", built_utc=datetime.now(timezone.utc).isoformat(),
+    result = dict(schema_version=1, version="1.2.2-local", built_utc=datetime.now(timezone.utc).isoformat(),
         palettes=palettes, sources=sources,
         omissions=["ggsci Gephi is a generative algorithm with RNG/number-of-colours parameters, not a fixed colour table; no frozen arbitrary-seed set is presented as the original palette.",
                    "No claim to include every palette from every scientific package. See source/version and family counts for the actual snapshot."],

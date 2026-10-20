@@ -1,7 +1,7 @@
 {
-  "registry_version": "1.2.0",
-  "total": 1537,
-  "core": 335,
+  "registry_version": "1.2.2-local",
+  "total": 1554,
+  "core": 352,
   "extensions": 1202,
   "families": {
     "ggsci": 1288,
@@ -15,7 +15,8 @@
     "tol": 8,
     "cud": 1,
     "scico": 102,
-    "cmocean": 44
+    "cmocean": 44,
+    "wechat": 17
   },
   "omissions": [
     "ggsci Gephi is a generative algorithm with RNG/number-of-colours parameters, not a fixed colour table; no frozen arbitrary-seed set is presented as the original palette.",

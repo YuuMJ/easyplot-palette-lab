@@ -58,3 +58,9 @@ Prioritize demonstrated user workloads and failure risk, not the number of sourc
 - Reproducibility: a small representative analysis-to-delivery benchmark; record result stability and scientific semantics separately from pixel equality.
 
 The user should continue to ask for EasyPlot. An unimplemented specialized helper is an explicit engineering/validation task within EasyPlot, not a reason to make the user manage a collection of external skills.
+
+## User-supplied WeChat palette cards, 2026-10-20
+
+All nine individual Tuke colour cards and four PubCNS Nature-18 cards were visually inspected. Exact printed HEX values and source order are frozen in ssets/user-wechat-palettes.json; covers are duplicates. No artwork, figure data or article instructions were imported. Metadata retains source URLs and image SHA-256. See wechat-palettes.md for usage limits.
+
+PubCNS issue 122 (2026-10-20): four further exact-HEX card transcriptions, RGB cross-checked; cover duplicate excluded. Source heading/body/figure provenance mismatch is explicitly recorded. No figure artwork or data imported. User collection total: 17.
