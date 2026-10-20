@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "album_url": "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzU0ODY3Njg5NA==&action=getalbum&album_id=4505958088352628740",
+  "album_title": "科研配色",
+  "publisher": "PubCNS",
+  "phase": "backfill",
+  "timezone": "Asia/Shanghai",
+  "automation_id": "easyplot",
+  "automation_name": "EasyPlot 色板补齐与每周更新",
+  "initial_snapshot_date": "2026-10-20",
+  "initial_article_count": 122,
+  "latest_observed_article_count": 122,
+  "full_album_inventory_complete": false,
+  "indexed_articles": 12,
+  "inventory_note": "The album header and first ten entries were observed directly. Issues 18 and 122 were previously inspected in full. Other lazy-loaded article links remain to be inventoried; 122 is an article count, not a palette count.",
+  "daily_limit": {
+    "unit": "one complete independently callable unique palette",
+    "maximum": 1,
+    "scope": "backfill phase only; one Asia/Shanghai calendar day"
+  },
+  "first_scheduled_date": "2026-10-21",
+  "completed_before_automation": {
+    "album_palettes": 8,
+    "other_tuke_palettes": 9
+  },
+  "last_successful_palette_date": null,
+  "last_successful_palette_id": null,
+  "last_successful_commit": null,
+  "pending_push": null,
+  "articles": [
+    {
+      "issue": 1,
+      "title": "跟着顶刊学配色 01 | Cell Metabolism",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247484041&idx=1&sn=4df6578f0539138b7e08718bfbe67e13",
+      "status": "pending-card-inventory",
+      "cards_inventory_complete": false,
+      "palettes": []
+    },
+    {
+      "issue": 2,
+      "title": "跟着顶刊学配色 02 | Cell Metabolism",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247484134&idx=1&sn=594299f8fc88782ff1dca59fdd4b96d4",
+      "status": "pending-card-inventory",
+      "cards_inventory_complete": false,
+      "palettes": []
+    },
+    {
+      "issue": 3,
+      "title": "跟着顶刊学配色 03 | Cell",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247484126&idx=1&sn=7c584a9b8025af5586315986e0151dc4",
+      "status": "pending-card-inventory",
+      "cards_inventory_complete": false,
+      "palettes": []
+    },
+    {
+      "issue": 4,
+      "title": "跟着顶刊学配色 04 | Cell Metabolism",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247484190&idx=1&sn=1f1c39c218498f9d7057659d692c07ff",
+      "status": "pending-card-inventory",
+      "cards_inventory_complete": false,
+      "palettes": []
+    },
+    {
+      "issue": 5,
+      "title": "跟着顶刊学配色 05 | Nature Metabolism",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247484211&idx=1&sn=e71875a843dc12f670dd86f798f732e6",
+      "status": "pending-card-inventory",
+      "cards_inventory_complete": false,
+      "palettes": []
+    },
+    {
+      "issue": 6,
+      "title": "跟着顶刊学配色 06 | Cell",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247484231&idx=1&sn=8b7f93737185e32493b64446ceeefd22",
+      "status": "pending-card-inventory",
+      "cards_inventory_complete": false,
+      "palettes": []
+    },
+    {
+      "issue": 7,
+      "title": "跟着顶刊学配色 07 | STTT",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247484245&idx=1&sn=e3067502646db3a75efbbbd70dd638e8",
+      "status": "pending-card-inventory",
+      "cards_inventory_complete": false,
+      "palettes": []
+    },
+    {
+      "issue": 8,
+      "title": "跟着顶刊学配色 08 | Cell",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247484281&idx=1&sn=b2306f3236b54c33d079ce3361dec9a3",
+      "status": "pending-card-inventory",
+      "cards_inventory_complete": false,
+      "palettes": []
+    },
+    {
+      "issue": 9,
+      "title": "跟着顶刊学配色 09 | Cell",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247484311&idx=1&sn=4c5de6d54ab351287a22a794b9e5a500",
+      "status": "pending-card-inventory",
+      "cards_inventory_complete": false,
+      "palettes": []
+    },
+    {
+      "issue": 10,
+      "title": "跟着顶刊学配色 10 | Nature",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247484310&idx=1&sn=bec7289580c326f66f24bfcbce90fb00",
+      "status": "pending-card-inventory",
+      "cards_inventory_complete": false,
+      "palettes": []
+    },
+    {
+      "issue": 18,
+      "url": "https://mp.weixin.qq.com/s/3kdVaFgGGLvQikHTRa8QaA",
+      "status": "complete",
+      "cards_inventory_complete": true,
+      "cover_duplicate_excluded": true,
+      "palettes": [
+        {
+          "id": "wechat.pubcns.nature18.fig1",
+          "source_card": "b01",
+          "source_image_sha256": "ead10b97388c559d1d8dd046d97d1b37d3560b88d6013bf1f14155901e33fe29",
+          "status": "imported"
+        },
+        {
+          "id": "wechat.pubcns.nature18.fig2",
+          "source_card": "b02",
+          "source_image_sha256": "d0895e71fbf62323e97e1792120e78d02c87cc86028f31d61dbe365e62108ce7",
+          "status": "imported"
+        },
+        {
+          "id": "wechat.pubcns.nature18.fig3",
+          "source_card": "b03",
+          "source_image_sha256": "c84c43a032de02dfd22fe9d6e44a1c76e4a76924cfa953329c63cf7d3bc9ce57",
+          "status": "imported"
+        },
+        {
+          "id": "wechat.pubcns.nature18.fig4",
+          "source_card": "b04",
+          "source_image_sha256": "878c80e27672905df8476e42f1eeb5036488c0993cc95fad23d1c269423f369b",
+          "status": "imported"
+        }
+      ]
+    },
+    {
+      "issue": 122,
+      "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247487936&idx=1&sn=76fd4ba3bc0a0c7d8e08e7c6e173cad1",
+      "status": "complete",
+      "cards_inventory_complete": true,
+      "cover_duplicate_excluded": true,
+      "palettes": [
+        {
+          "id": "wechat.pubcns.neuron122.fig1",
+          "source_card": "c01",
+          "source_image_sha256": "516a05ae9beb8bfa2e70b5436f6edfda1c82a1fede2867b8d43d2a76e7fde8c4",
+          "status": "imported"
+        },
+        {
+          "id": "wechat.pubcns.neuron122.fig2",
+          "source_card": "c02",
+          "source_image_sha256": "6d66136c8877d6a36547ac60929d231af10ec8284f3a8e9b7e674671a38dd986",
+          "status": "imported"
+        },
+        {
+          "id": "wechat.pubcns.neuron122.fig3",
+          "source_card": "c03",
+          "source_image_sha256": "e8c7b51aec203a41e6e0ebed1fa5ac50d9f3336299b45208ec29991b6e4d0a8e",
+          "status": "imported"
+        },
+        {
+          "id": "wechat.pubcns.neuron122.fig4",
+          "source_card": "c04",
+          "source_image_sha256": "738d6944f05355eb25704d3a5879b4b557b0bfa370a70c7b70249b28ecaa0eff",
+          "status": "imported"
+        }
+      ]
+    }
+  ]
+}
