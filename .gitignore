@@ -6,3 +6,6 @@ __pycache__/
 .Rproj.user/
 .DS_Store
 Thumbs.db
+
+# Private maintenance attempts, failures and pending-push state
+/maintenance/local/
