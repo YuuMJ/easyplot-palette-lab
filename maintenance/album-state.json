@@ -34,7 +34,9 @@
       "url": "https://mp.weixin.qq.com/s?__biz=MzU0ODY3Njg5NA==&mid=2247484041&idx=1&sn=4df6578f0539138b7e08718bfbe67e13",
       "status": "pending-card-inventory",
       "cards_inventory_complete": false,
-      "palettes": []
+      "palettes": [],
+      "last_attempt_date": "2026-10-21",
+      "last_attempt_outcome": "unreadable-verification-page"
     },
     {
       "issue": 2,
@@ -174,5 +176,20 @@
         }
       ]
     }
-  ]
+  ],
+  "last_run": {
+    "local_date": "2026-10-21",
+    "heartbeat_time_iso": "2026-10-21T00:59:37.903Z",
+    "outcome": "blocked-source-access",
+    "palettes_added": 0,
+    "album_count_observed": 122,
+    "full_album_inventory_complete": false,
+    "blockers": [
+      "Web reader could not open album URL.",
+      "Built-in browser creation timed out twice and reset its kernel; no readable article/card was available through that tool.",
+      "Direct HTTPS retrieved the album header and initial article list only; canonical issue-1 URL and full album-provided URL returned verification pages without article content or palette-image references."
+    ],
+    "next_action": "Retry source access at the next scheduled daily run. Complete the lazy-loaded index and verify the earliest missing palette before importing. Do not count this failed attempt as a daily palette addition.",
+    "registry_modified": false
+  }
 }
